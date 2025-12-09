@@ -5,7 +5,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(TRIG,OUTPUT);
   pinMode(ECHO,INPUT);
-  pimMode(8,OUTPUT);
+  pinMode(8,OUTPUT);
 }
 
 void loop() {
